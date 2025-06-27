@@ -1,0 +1,9 @@
+,Chosen Version
+KNN,Optimized
+LightGBM,Optimized
+Decision Tree,Optimized
+XGBoost,Optimized
+Random Forest,Optimized
+AdaBoost,Optimized
+Logistic Regression,Default
+CatBoost,Default

@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1 Score,ROC AUC
+Random Forest,0.844,0.794,0.781,0.788,0.914
+LightGBM,0.835,0.792,0.752,0.772,0.902
+XGBoost,0.831,0.784,0.751,0.767,0.9
+CatBoost,0.827,0.785,0.736,0.759,0.892
+KNN,0.828,0.768,0.769,0.768,0.894

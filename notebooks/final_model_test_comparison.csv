@@ -1,0 +1,9 @@
+Model,Used,Test Recall,Params
+Bagging,Tuned,0.7805319341414872,"{'clf__max_samples': 1.0, 'clf__n_estimators': 50}"
+KNN,Tuned,0.7795368192509499,"{'clf__n_neighbors': 7, 'clf__weights': 'distance'}"
+Decision Tree,Tuned,0.7736565948977746,"{'clf__max_depth': None, 'clf__min_samples_split': 2}"
+Random Forest,Tuned,0.7731138049574815,"{'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__n_estimators': 200}"
+XGBoost,Default,0.738194318798625,Default
+Naive Bayes,Default,0.7303238646643749,Default
+AdaBoost,Tuned,0.6987515831373259,"{'clf__learning_rate': 1.0, 'clf__n_estimators': 100}"
+Logistic Regression,Tuned,0.694409263614981,"{'clf__C': 1, 'clf__penalty': 'l2', 'clf__solver': 'lbfgs'}"

@@ -1,0 +1,9 @@
+Model,Best_score,Best Params,F1
+Logistic Regression,0.7115488240870327,"{'clf__C': 1, 'clf__penalty': 'l2', 'clf__solver': 'liblinear'}",0.7115488240870327
+Random Forest,0.7864763875761801,"{'clf__max_depth': 30, 'clf__max_features': 'sqrt', 'clf__min_samples_split': 2, 'clf__n_estimators': 300}",0.7864763875761801
+AdaBoost,0.7202289706068399,"{'clf__learning_rate': 1.0, 'clf__n_estimators': 200}",0.7202289706068399
+Decision Tree,0.7474453873308123,"{'clf__criterion': 'entropy', 'clf__max_depth': 20, 'clf__min_samples_split': 2}",0.7474453873308123
+KNN,0.7644525080563465,"{'clf__n_neighbors': 9, 'clf__p': 1, 'clf__weights': 'distance'}",0.7644525080563465
+XGBoost,0.7716160692541687,"{'clf__colsample_bytree': 1.0, 'clf__learning_rate': 0.2, 'clf__max_depth': 7, 'clf__n_estimators': 200, 'clf__subsample': 1.0}",0.7716160692541687
+LightGBM,0.77510420312391,"{'clf__learning_rate': 0.1, 'clf__max_depth': -1, 'clf__n_estimators': 200, 'clf__num_leaves': 100, 'clf__subsample': 0.8}",0.77510420312391
+CatBoost,0.7628034133179412,"{'clf__depth': 8, 'clf__iterations': 200, 'clf__l2_leaf_reg': 1, 'clf__learning_rate': 0.1}",0.7628034133179412
